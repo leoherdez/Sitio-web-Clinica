@@ -1,0 +1,222 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+#Encabezado{
+    padding: 2% 3%;
+    display: flex;
+    justify-content: center;
+}
+#Encabezado .Ele_Menu a{
+    text-decoration: none;
+    color: white;
+}
+#Encabezado a{
+    text-decoration: none;
+    color:#000000;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+}
+#Encabezado h1{
+    display: inline-block;
+    font-size: 20px;
+    font-weight:bold;
+}
+#Titulo{
+    display: flex;
+    text-align: center;
+    width: 120px;
+    height: 130px;
+    padding: 30px 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e40000;
+    float: left;
+}
+
+#Menu2{
+    height: 80px;
+    width: 897px;
+    display:flex;
+    margin: 0;
+}
+#Menu2 span{
+    background-color: #e40000;
+    height: 25px;
+}
+#fondo{
+    padding: 4% 0;
+    width: 897px;
+}
+
+.Ele_Menu{
+    margin: 0%;
+    padding: 15px 5px;
+    display: inline-block;
+    background-color: #e40000;
+
+}
+    
+.Menu {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+    
+.navbar .Menu:hover {
+    box-sizing: border-box;
+    background-color: #9e0000;
+    border-left: #fff solid;
+    border-right:  #fff solid;
+    transition: 0.3s;
+}
+
+.navbar{
+    box-sizing:content-box;
+    margin-bottom: 5px;
+    padding: 0%;
+    width: 1070px;
+    
+}
+
+#Contenido{
+    padding: 2% 3%;
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    box-sizing:content-box;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding: 0%;
+    width: 1070px;
+    display: flex;
+    justify-content: center;
+}
+
+  #Contenido .Contenido {
+      display:inline-block;
+      
+      padding: 5px 4%;
+
+  }
+  #Contenido .Contenido h3{
+      font-size: 25px;
+  }
+
+
+
+#Pie-pagina{
+    padding: 5px 20%;
+    background-color:#e40000;
+    color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .Contacto{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #Redes-Sociales{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Facebook{
+    width: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .Facebook:hover{
+    color: #1778f2;
+  
+  }
+  
+  .Instagram{
+    width: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .Instagram:hover{
+    color: #e93a56;
+  
+  }
+  
+  .Twitter{
+    width: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .Twitter:hover{
+    color: #00aced;
+  
+  }
+  
+  .Whatsapp{
+    width: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .Whatsapp:hover{
+    color: #72cc28;
+  }
+  
+  .Github{
+    width: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .Github:hover{
+    color: #171515;
+  }
+  
+  .Discord{
+    width: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .Discord:hover{
+    color: #5663F7;
+  }
+  
+  #Redes-Sociales a{
+    margin-left: 5px;
+  }
+  
+  #Final{
+    padding-top: 4%;
+    display: block;
+  }
+  
+  #Final a{
+    text-decoration: none;
+    color:white;
+  }
+  
+  #Final a:hover{
+    color: white;
+  }
+  
+  .Informacion{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+  }
