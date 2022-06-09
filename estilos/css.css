@@ -69,6 +69,7 @@ body{
     padding: 5px 16px;
     font-family: sans-serif;
     font-weight: bold;
+    transition: 2s;
 }
     
 .navbar .Menu:hover {
@@ -78,6 +79,7 @@ body{
     border-right:  #fff solid;
     transition: 0.3s;
 }
+
 
 .navbar{
     box-sizing:content-box;
@@ -104,14 +106,19 @@ body{
 
   #Contenido .Contenido {
       display:inline-block;
-      
-      padding: 5px 4%;
+      text-align: center;
+      padding: 5px 2%;
+      background-color: #f9f9f9;
 
   }
   #Contenido .Contenido h3{
-      font-size: 25px;
+      font-size: 20px;
   }
 
+  .Contenido img{
+      width: 250px;
+      height: 200px;
+  }
 
 
 #Pie-pagina{
